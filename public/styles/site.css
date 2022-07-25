@@ -81,7 +81,7 @@ body {
     opacity: 0;
 
     transition-property: opacity;
-    transition-duration: 4s;
+    transition-duration: 3s;
 }
 
 .home-desc {
