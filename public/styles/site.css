@@ -16,6 +16,12 @@ nav {
     color: white;
 }
   
+.nav-sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 .nav-heading {
     letter-spacing: 6px;
     font-size: 14px;
@@ -45,4 +51,19 @@ nav {
 
 .nav-pages li a.active {
     background-color: #555555;
+}
+
+
+@media (max-width: 650px) {
+    nav {
+        min-height: 8em;
+        flex-direction: column;
+    }
+
+    .nav-sticky {
+        position: unset;
+        top: auto;
+        width: auto;
+    }
+    
 }
