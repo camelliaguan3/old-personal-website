@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@350&display=swap');
 
 * {
     margin: 0px;
@@ -53,17 +53,88 @@ nav {
     background-color: #555555;
 }
 
+body {
+    position: fixed;
+    top: 8em;
+    font-family: "Raleway", sans-serif;
+    width: 100%;
+}
+
+.home-flex {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.home-img img{
+    display: block;
+    margin-left: auto;
+    max-width: 550px;
+    width: 100%;
+    padding-right: 20px;
+}
+
+.home-desc {
+    padding-left: 20px;
+}
+
+.home-desc h1 {
+    letter-spacing: 4px;
+}
+
+.home-desc p {
+    font-size: 20px;
+    letter-spacing: 2px;
+    max-width: 550px;
+    width: 100%;
+}
+
+.home-desc button {
+    background-color: #222222;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.home-items {
+    flex-basis: 45%;
+    display: inline-block;
+}
+
+
+@media (max-width: 900px) {
+    .home-flex {
+        display: block;
+        width: 100%;
+    }
+
+    .home-items {
+        display: block;
+    }
+
+    .home-img img {
+        margin: 0 auto;
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .home-desc {
+        margin: 50px;
+    }
+}
 
 @media (max-width: 650px) {
     nav {
         min-height: 8em;
         flex-direction: column;
     }
-
-    .nav-sticky {
-        position: unset;
-        top: auto;
-        width: auto;
-    }
     
+    body {
+        top: 10em;
+    }
 }
