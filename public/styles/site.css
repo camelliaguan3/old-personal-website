@@ -129,7 +129,8 @@ body {
     }
 
     .home-desc {
-        margin: 50px;
+        margin: 40px;
+        padding: 0;
     }
 }
 
