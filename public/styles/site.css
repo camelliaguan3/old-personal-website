@@ -54,7 +54,7 @@ nav {
 }
 
 body {
-    position: fixed;
+    position: absolute;
     top: 8em;
     font-family: "Raleway", sans-serif;
     width: 100%;
@@ -121,6 +121,7 @@ body {
         margin: 0 auto;
         max-width: 400px;
         width: 100%;
+        padding: 0;
     }
 
     .home-desc {
