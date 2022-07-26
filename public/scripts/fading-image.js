@@ -1,4 +1,4 @@
-var currentOp, op;
+var op;
 
 function fadein()
 {
