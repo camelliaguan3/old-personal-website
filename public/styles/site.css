@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@350&display=swap');
 
+:root {
+    --theme-color-main: #222222;
+    --theme-color-active: #555555;
+    --theme-color-hover: #777777;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -11,7 +17,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     min-height: 4em;
-    background-color: #222222;
+    background-color: var(--theme-color-main);
     font-family: "Raleway", sans-serif;
     color: white;
 }
@@ -46,11 +52,11 @@ nav {
 }
 
 .nav-pages a:hover {
-    background-color: #777777;
+    background-color: var(--theme-color-hover);
 }
 
-.nav-pages li a.active {
-    background-color: #555555;
+.nav-pages a.active {
+    background-color: var(--theme-color-active);
 }
 
 body {
@@ -112,7 +118,7 @@ body {
 }
 
 .home-desc button {
-    background-color: #222222;
+    background-color: var(--theme-color-main);
     border: none;
     color: white;
     padding: 15px 32px;
@@ -120,8 +126,12 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    letter-spacing: 1px;
 }
 
+.home-desc button:hover {
+    background-color: var(--theme-color-hover);
+}
 
 @media (max-width: 900px) {
     .home-flex {
