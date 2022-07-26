@@ -217,9 +217,41 @@ body {
     }
 
     .home-desc {
-        margin: 40px;
+        padding: 30px;
+    }
+
+    .home-desc > * {
+        margin: 10px;
+    }
+
+
+
+    /* about.html */
+
+    .about-flex {
+        display: block;
+        width: 100%;
+    }
+
+    .about-items {
+        display: block;
+    }
+
+    .about-img img {
+        margin: 0 auto;
+        max-width: 400px;
+        width: 100%;
         padding: 0;
     }
+
+    .about-desc {
+        padding: 30px;
+    }
+
+    .about-desc > * {
+        margin: 10px;
+    }
+
 }
 
 @media (max-width: 650px) {
