@@ -1,3 +1,4 @@
+/*
 var op;
 
 function fadein()
@@ -8,3 +9,4 @@ function fadein()
 
 
 Window.onload = fadein();
+*/
