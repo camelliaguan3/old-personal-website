@@ -222,6 +222,9 @@ body {
 
     .home-desc > * {
         margin: 10px;
+    }
+
+    .home-desc p {
         max-width: 900px;
     }
 
@@ -251,6 +254,9 @@ body {
 
     .about-desc > * {
         margin: 10px;
+    }
+
+    .about-desc p {
         max-width: 900px;
     }
 
