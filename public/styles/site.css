@@ -146,13 +146,16 @@ body {
 
 .about-items {
     display: inline-block;
-    flex-basis: 50%;
+}
+
+.about-img {
+    flex-basis: 40%;
 }
 
 .about-img img{
     display: block;
     margin-left: auto;
-    max-width: 550px;
+    max-width: 440px;
     width: 100%;
     padding-right: 20px;
     opacity: 1;
@@ -164,6 +167,7 @@ body {
 .about-desc {
     padding-left: 20px;
     width: 100%;
+    flex-basis: 60%;
 }
 
 .about-desc h1 {
@@ -173,7 +177,7 @@ body {
 .about-desc p {
     font-size: 20px;
     letter-spacing: 2px;
-    max-width: 530px;
+    max-width: 720px;
 }
 
 .about-desc a {
