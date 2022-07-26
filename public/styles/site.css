@@ -74,7 +74,7 @@ body {
 }
 
 .home-items {
-    flex-basis: 45%;
+    flex-basis: 50%;
     display: inline-block;
 }
 
@@ -113,7 +113,7 @@ body {
 .home-desc p {
     font-size: 20px;
     letter-spacing: 2px;
-    max-width: 550px;
+    max-width: 530px;
     width: 100%;
 }
 
@@ -132,6 +132,68 @@ body {
 .home-desc a:hover {
     background-color: var(--theme-color-hover);
 }
+
+
+
+/* about.html */
+
+.about-flex {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.about-items {
+    display: inline-block;
+    flex-basis: 50%;
+}
+
+.about-img img{
+    display: block;
+    margin-left: auto;
+    max-width: 550px;
+    width: 100%;
+    padding-right: 20px;
+    opacity: 1;
+
+    animation-name: fade-in;
+    animation-duration: 2s;
+}
+
+.about-desc {
+    padding-left: 20px;
+    width: 100%;
+}
+
+.about-desc h1 {
+    letter-spacing: 4px;
+}
+
+.about-desc p {
+    font-size: 20px;
+    letter-spacing: 2px;
+    max-width: 530px;
+}
+
+.about-desc a {
+    background-color: var(--theme-color-main);
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.about-desc a:hover {
+    background-color: var(--theme-color-hover);
+}
+
+
+
 
 @media (max-width: 900px) {
     .home-flex {
