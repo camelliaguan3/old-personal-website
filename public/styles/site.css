@@ -117,19 +117,19 @@ body {
     width: 100%;
 }
 
-.home-desc button {
+.home-desc a {
     background-color: var(--theme-color-main);
-    border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 15px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     letter-spacing: 1px;
+    cursor: pointer;
 }
 
-.home-desc button:hover {
+.home-desc a:hover {
     background-color: var(--theme-color-hover);
 }
 
