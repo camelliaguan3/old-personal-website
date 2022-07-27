@@ -267,7 +267,9 @@ body {
 }
 
 
-
+.hidden {
+    display: none;
+}
 
 @media (max-width: 900px) {
     .home-flex {
