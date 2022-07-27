@@ -380,4 +380,8 @@ body {
     body {
         top: 10em;
     }
+
+    .portfolio-arrow {
+        margin: 20px 30px 4em 30px;
+    }
 }
