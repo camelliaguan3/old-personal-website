@@ -12,6 +12,7 @@ function changeSlide(slides, curr, next, changed = -1) {
         changed = next ? (curr + (num_slides + 1)) % num_slides : (curr + (num_slides - 1)) % num_slides;
     }
     slides.eq(changed).removeClass("hidden");
+    document.getElementById("numbering").innerHTML = String(changed + 1) + " / " + String(num_slides)
     console.log("changed slides!");
     return changed;
 }

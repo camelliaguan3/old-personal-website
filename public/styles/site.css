@@ -256,6 +256,10 @@ body {
     text-align: center;
 }
 
+.portfolio-carousel p {
+    display: inline-block;
+}
+
 .portfolio-arrow {
     border: solid var(--theme-color-main) 2px;
     padding: 5px;
