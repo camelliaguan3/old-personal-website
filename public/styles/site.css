@@ -11,6 +11,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
 }
 
 nav {
@@ -19,7 +20,6 @@ nav {
     align-items: center;
     min-height: 4em;
     background-color: var(--theme-color-main);
-    font-family: "Raleway", sans-serif;
     color: var(--theme-color-owhite);
 }
   
@@ -63,7 +63,6 @@ nav {
 body {
     position: absolute;
     top: 8em;
-    font-family: "Raleway", sans-serif;
     width: 100%;
     color: var(--theme-color-main);
     background-color: var(--theme-color-owhite);
@@ -264,11 +263,12 @@ body {
     background: none;
     font-size: 18px;
     margin: 20px 50px 4em 50px;
+    letter-spacing: 1px;
 }
 
 
 .hidden {
-    display: none;
+    display: none !important;;
     visibility: hidden;
 }
 
