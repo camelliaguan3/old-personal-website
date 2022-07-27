@@ -269,6 +269,7 @@ body {
 
 .hidden {
     display: none;
+    visibility: hidden;
 }
 
 @media (max-width: 900px) {
