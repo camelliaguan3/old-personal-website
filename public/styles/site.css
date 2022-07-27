@@ -111,7 +111,7 @@ body {
 }
 
 .home-desc p {
-    font-size: 20px;
+    font-size:18px;
     letter-spacing: 2px;
     max-width: 530px;
     width: 100%;
@@ -175,7 +175,7 @@ body {
 }
 
 .about-desc p {
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 2px;
     max-width: 720px;
 }
