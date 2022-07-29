@@ -1,4 +1,4 @@
-var num_slides = 2
+var num_slides = 3
 
 var curr = 0;
 
