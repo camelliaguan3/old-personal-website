@@ -213,15 +213,18 @@ body {
     margin-left: auto;
     max-width: 500px;
     width: 100%;
-    padding-right: 20px;
+    margin-right: 20px;
     opacity: 1;
 
     animation-name: fade-in;
     animation-duration: 2s;
+
+    border: thin solid #555555;
+    border-radius: 7.5px;
 }
 
 .portfolio-desc {
-    padding: 0 20px;
+    padding: 20px 20px 0 20px;
 }
 
 .portfolio-desc h1 {
