@@ -280,7 +280,7 @@ body {
     visibility: hidden;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 990px) {
     .home-flex {
         display: block;
         width: 100%;
